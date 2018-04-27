@@ -1,0 +1,161 @@
+/*清除浮动*/
+.clear {
+	clear: both;
+}
+.wechat_style{    
+	color: #fff;
+    background: #8fc31f;
+    border-radius: 2rem;
+    display: inline-block;
+    padding: 0rem .5rem ;
+    margin: .4rem 0;
+}
+.font_s1 {
+	background-color: yellow;
+	color: red;
+	font-weight: 800;
+}
+.font_s2 {
+	background-color: rgb(255,41,65);
+	color: #FFF;
+	font-weight: 800;
+}
+.font_s4 {
+	background-color: rgb(255,41,65);
+	color: yellow;
+	font-weight: 800;
+}
+.font_s3 {
+	color: gray;
+}
+#header, #main, #footer {
+	width: 98%;
+	max-width: 640px;
+	margin: 0 auto;
+	color: rgb(62, 62, 62);
+	font-size: 16px;
+	line-height: 28px;
+	background-color: #FFF;
+}
+#main .box {
+	width: 98%;
+	padding: 2% 0;
+	text-align: center;
+}
+#main .box p {
+	margin: 10px;
+}
+#main .box .img1 img {
+	width: 210px;
+	height: 240px;
+	margin-left: 10px;
+}
+#main .intro .img2{
+	text-align: center;
+}
+.intro p{ text-indent:2em;}
+
+#main .box .img2 img {
+	max-width: 100%;
+
+}
+#main .p1 {
+	text-indent: 2em;
+	margin: 10px;
+}
+#main .intro {
+	margin-bottom: 20px;
+}
+#main .comment {
+}
+#main .comment h1 {
+	text-align: center;
+}
+#main .comment ul {
+}
+#main .comment ul li{
+	padding-top: 8px;
+}
+#main .comment .head_por {
+	float: left;
+	max-width: 100px;
+	width: 10%;
+	text-align: center;
+}
+#main .comment .content1 {
+	float: right;
+	max-width: 540px;
+	width: 82.5%;
+}
+#main .comment .content1 .top {
+	height: 24px;
+	color: rgb(153, 153, 153);
+}
+#main .comment .content1 .top .zan {
+	float: right;
+	background: url(../images/111.jpg) no-repeat left center;
+	padding-left: 30px;
+}
+#main .comment .content1 .time {
+	font-size: 10px;
+	color: rgb(153, 153, 153);
+}
+#main .comment .content1 .writer {
+	
+	border-top: 1px solid gray;
+	height:20px;
+	line-height:20px;
+	margin: 3px 0;
+	padding-left:5px;
+	color: rgb(153, 153, 153);
+	border-left:2px solid rgb(1,168,63)
+}
+#main .wechat {
+	width: 100%;
+	padding: 15px 0;
+}
+#main .wechat h1 {
+	text-align: center;
+	padding-top: 5px;
+}
+#main .wechat img {
+	padding-top: 25px;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.wechat_code {
+	color: red;
+	font-weight: 800;
+	background-color: yellow;
+	padding: 0 12px;
+}
+#beian {
+	text-align: center;
+	color: #FFF;
+	font-size: 12px;
+	background-color: #999;
+	line-height: 15px;
+}
+#beian a {
+	color: #FFF;
+}
+#fixed {
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	bottom: 0;
+	padding-top: 5px;
+	position: fixed;
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+}
+#fixed img {
+	float: left;
+	margin-top: -5px;
+	width: 70px;
+}
+#fixed .zhuxi {
+	font-size: 10px;
+	color: gray;
+}
